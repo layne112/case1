@@ -36,8 +36,8 @@ Date:   Thu May 9 12:52:13 2024 +0300
 - **modifed** - закомиченный файл был отредактирован, но не был обновлен командой 'git commit'
 
 ```mermaid
-status files
-    A[untracked] -- git add --> B{staged};
-    B -- git commit --> C[tracked];
-    C -- изменения в файле --> D[modifed];
+  status files;
+      A[untracked] -- git add --> B{staged};
+      B -- git commit --> C[tracked];
+      C -- изменения в файле --> D[modifed];
 ```
